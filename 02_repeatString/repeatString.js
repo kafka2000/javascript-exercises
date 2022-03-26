@@ -1,5 +1,5 @@
-repeatString = function(stringToRepeat, numRepeat) {
-  repeatedString = ""
+const repeatString = function(stringToRepeat, numRepeat) {
+  let repeatedString = ""
   for (let i = 0; i < numRepeat; i++){
     repeatedString += stringToRepeat;
   }
